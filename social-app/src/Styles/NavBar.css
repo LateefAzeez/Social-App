@@ -1,0 +1,41 @@
+/* Make the navbar stick to the top when scrolling */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999;
+}
+.navbar_left {
+  display: flex;
+}
+
+.navbar_left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar_search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 18px;
+  color: gray;
+  background-color: #eef3f8;
+  width: 300px;
+}
+
+.navbar_search > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.navbar_right {
+  display: flex;
+}

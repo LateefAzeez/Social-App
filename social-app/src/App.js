@@ -1,11 +1,18 @@
-import React from 'react';
-import { Counter } from './features/counter/Counter';
+
 import './App.css';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Let us build a good social app</h1>
+
+      {/* Header/ Navbar */}
+      <NavBar />
+      {/* Side Bars */}
+      {/* App Body */}
+      {/* Feed */}
+      {/* Widgets */}
+
     </div>
   );
 }
